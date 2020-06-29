@@ -2,12 +2,13 @@ module github.com/coreos/flannel
 
 go 1.13
 
-replace github.com/gorillalabs/go-powershell => github.com/erikwilson/go-powershell v0.0.0-20200626203756-0d245190f1bd
+replace github.com/benmoss/go-powershell => github.com/erikwilson/go-powershell v0.0.0-20200626201310-7664a0bc28c0
 
 require (
 	github.com/Microsoft/go-winio v0.4.11 // indirect
 	github.com/Microsoft/hcsshim v0.8.6-0.20190129145542-bc49f75c7221
 	github.com/aws/aws-sdk-go v1.12.54
+	github.com/benmoss/go-powershell v0.0.0-20190925205200-09527df358ca // indirect
 	github.com/bronze1man/goStrongswanVici v0.0.0-20171013065002-4d72634a2f11
 	github.com/coreos/etcd v3.1.11+incompatible
 	github.com/coreos/go-iptables v0.4.0
@@ -16,13 +17,12 @@ require (
 	github.com/denverdino/aliyungo v0.0.0-20170629053852-f6cab0c35083
 	github.com/erikwilson/go-powershell v0.0.0-20200626203756-0d245190f1bd // indirect
 	github.com/go-ini/ini v1.28.1 // indirect
-	github.com/gorillalabs/go-powershell v0.0.0-00010101000000-000000000000 // indirect
 	github.com/jmespath/go-jmespath v0.0.0-20160803190731-bd40a432e4c7 // indirect
 	github.com/joho/godotenv v0.0.0-20161216230537-726cc8b906e3
 	github.com/jonboulle/clockwork v0.1.0
 	github.com/niemeyer/pretty v0.0.0-20200227124842-a10e7caefd8e // indirect
 	github.com/pkg/errors v0.9.1
-	github.com/rakelkar/gonetsh v0.0.0-20180118190048-758b1f7c9d1c
+	github.com/rakelkar/gonetsh v0.0.0-20190930180311-e5c5ffe4bdf0
 	github.com/sirupsen/logrus v1.0.6 // indirect
 	github.com/smartystreets/goconvey v1.6.4 // indirect
 	github.com/stretchr/testify v1.6.1 // indirect

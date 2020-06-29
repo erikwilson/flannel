@@ -48,6 +48,9 @@ github.com/aws/aws-sdk-go/private/protocol/rest
 github.com/aws/aws-sdk-go/private/protocol/xml/xmlutil
 github.com/aws/aws-sdk-go/service/ec2
 github.com/aws/aws-sdk-go/service/sts
+# github.com/benmoss/go-powershell v0.0.0-20190925205200-09527df358ca => github.com/erikwilson/go-powershell v0.0.0-20200626201310-7664a0bc28c0
+github.com/benmoss/go-powershell
+github.com/benmoss/go-powershell/backend
 # github.com/bronze1man/goStrongswanVici v0.0.0-20171013065002-4d72634a2f11
 github.com/bronze1man/goStrongswanVici
 # github.com/coreos/etcd v3.1.11+incompatible
@@ -98,9 +101,6 @@ github.com/google/gofuzz
 github.com/googleapis/gnostic/OpenAPIv2
 github.com/googleapis/gnostic/compiler
 github.com/googleapis/gnostic/extensions
-# github.com/gorillalabs/go-powershell v0.0.0-00010101000000-000000000000 => github.com/erikwilson/go-powershell v0.0.0-20200626203756-0d245190f1bd
-github.com/gorillalabs/go-powershell
-github.com/gorillalabs/go-powershell/backend
 # github.com/hashicorp/golang-lru v0.5.1
 github.com/hashicorp/golang-lru
 github.com/hashicorp/golang-lru/simplelru
@@ -120,7 +120,7 @@ github.com/modern-go/concurrent
 github.com/modern-go/reflect2
 # github.com/pkg/errors v0.9.1
 github.com/pkg/errors
-# github.com/rakelkar/gonetsh v0.0.0-20180118190048-758b1f7c9d1c
+# github.com/rakelkar/gonetsh v0.0.0-20190930180311-e5c5ffe4bdf0
 github.com/rakelkar/gonetsh/netroute
 github.com/rakelkar/gonetsh/netsh
 # github.com/sirupsen/logrus v1.0.6
